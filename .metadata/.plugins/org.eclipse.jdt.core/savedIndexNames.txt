@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/PJWSTK/s16980/POJ/GIT/POJ_PJWSTK/.metadata/.plugins/org.eclipse.jdt.core
+1413592448.index
+4117481.index

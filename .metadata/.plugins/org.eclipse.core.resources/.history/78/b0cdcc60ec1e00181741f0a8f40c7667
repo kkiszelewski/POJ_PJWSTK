@@ -1,0 +1,18 @@
+package silnia;
+
+public class silnia {
+	 
+		private static int Silnia(int i)
+		{
+		if (i < 1)
+		return 1;
+		else
+		return i * Silnia(i - 1);
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+	}
+
+}
