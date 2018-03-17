@@ -25,13 +25,6 @@ public class JavaMarkt {
 		    .applyPromotions()
 		    .applyPromotions();
                 
-                System.out.println(cart);
-                
-                cart.addPromotion(new GamePromotion())
-		    .applyPromotions()
-		    .applyPromotions();
-
-		System.out.println(cart);
-}
-    
+                System.out.println(cart);         
+            }
 }
