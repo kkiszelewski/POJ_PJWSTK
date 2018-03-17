@@ -14,8 +14,8 @@ public class JavaMarkt {
     public static void main(String[] args) {
 		//System.out.println(getSampleCart().getItems());
 		Cart cart = new Cart();
-		cart.addProduct(new Product("Kartofle", 200))
-		    .addProduct(new Product("Woda", 120))
+		cart.addProduct(new Product("Kartofle", 20))
+		    .addProduct(new Product("Woda", 135))
 		    .addPromotion(new ValuePromotion())
 		    .applyPromotions();
 
@@ -24,8 +24,14 @@ public class JavaMarkt {
 		cart.addPromotion(new MugPromotion())
 		    .applyPromotions()
 		    .applyPromotions();
+                
+                System.out.println(cart);
+                
+                cart.addPromotion(new GamePromotion())
+		    .applyPromotions()
+		    .applyPromotions();
 
-		//System.out.println(cart);
+		System.out.println(cart);
 }
     
 }
