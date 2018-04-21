@@ -22,7 +22,7 @@ public class Main {
 		System.out.println(lista);
 		
 		System.out.println("FILTER");
-		lista.stream().filter(ogl -> ogl.getSamochod().getRocznik() > 1990);
+		//lista.stream().filter(ogl -> ogl.getSamochod().getRocznik() > 1990);
 		System.out.println(lista);
 		
 	}
